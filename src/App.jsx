@@ -1,17 +1,16 @@
-import React from 'react';
 import Hero from './components/Hero';
+import Projects from './components/Projects';
 import './App.css';
 
 function App() {
     return (
-        <div className = "App">
+      <div className="App">
+        <main>
+          <Hero />
 
-
-            <main>
-                <Hero />
-
-            </main>
-        </div>
+          <Projects />
+        </main>
+      </div>
     );
 }
 

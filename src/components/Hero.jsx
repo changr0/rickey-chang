@@ -1,4 +1,3 @@
-import React from 'react';
 import './Hero.css';
 
 const Hero = () => {
@@ -12,7 +11,7 @@ const Hero = () => {
                 </h1>
 
                 <p className = "hero-description">
-                    I recently received my <b>Associate Degree</b> from <b>Milwaukee Area Technical College</b> 
+                    I recently received my <b>Associate Degree</b> from <b>Milwaukee Area Technical College </b>
                     and will be continuing my education at the <b>University of Wisconsin-Milwaukee</b> for a <b>Bachelor's Degree</b>.
                     I am passionate about creating visually appealing and user-friendly websites. 
                     I have experience with <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, and <b>React</b>. 
