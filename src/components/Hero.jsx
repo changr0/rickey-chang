@@ -19,7 +19,7 @@ const Hero = () => {
                 </p>
 
                 <div className = "hero-buttons">
-                    <a href = "/resume.pdf" target = "_blank" rel = "noopener noreferrer" className = "button-primary">View Resume</a>
+                    <a href = "/public/resume.pdf" target = "_blank" rel = "noopener noreferrer" className = "button-primary">View Resume</a>
                     <a href = "https://github.com/changr0" target = "_blank" rel = "noopener noreferrer" className = "button-secondary">GitHub Profile</a>
                 </div>
             </div>
