@@ -15,3 +15,13 @@ main {
   gap: 40px; /* This creates a consistent vertical gap between Projects and Skills */
   background-color: #0f172a;
 }
+
+/* Global Section Title Styling */
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;    /* This sets the exact same size for all sections */
+  color: #10b981;       /* Keeping your signature green color */
+  margin-bottom: 40px;  /* Consistent spacing below the title */
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}

@@ -1,7 +1,7 @@
 .hero-container {
   background-color: #0f172a; /* Dark Navy */
   color: #f8fafc;
-  min-height: 80vh;
+  min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,7 +57,7 @@
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s ease;
-  border: 1px solid #334155;
+  border: 1px solid #344256;
   color: #f8fafc;
   
 }

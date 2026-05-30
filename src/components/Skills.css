@@ -1,6 +1,6 @@
 .skills-section {
   background-color: #0f172a;
-  padding: 60px 20px;
+  padding: 40px 20px 80px 20px;
   color: #f8fafc;
 }
 
@@ -20,6 +20,11 @@
   border-radius: 12px;
   min-width: 250px;
   flex: 1;
+  transition: border-color 0.3s ease;
+}
+
+.skill-category:hover {
+  border-color: #334155;
 }
 
 .skill-category h3 {
@@ -36,19 +41,23 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+  margin-top: 15px;
 }
 
 .skill-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 1.1rem;
   color: #cbd5e1;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: 1px solid #344256;
+  transition: all 0.2s ease;
+  white-space: nowrap; /* Keeps single skills on one line */
 }
 
-.skill-dot {
-  height: 6px;
-  width: 6px;
-  background-color: #10b981;
-  border-radius: 50%;
+.skill-item:hover {
+  border-color: #10b981; 
+  color: #10b981;        
+  background-color: #10b9810d; /* Soft glowing green background */
+  transform: translateY(-1px);
 }
