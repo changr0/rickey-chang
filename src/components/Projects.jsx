@@ -37,7 +37,7 @@ const Projects = () => {
                             </div>
                             <div className = "project-links">
                                 <a href = {project.githubLink} target = "_blank" rel = "noopener noreferrer" className = "button-primary">GitHub</a>
-                                <a href = {project.demoLink} target = "_blank" rel = "noopener noreferrer" className = "button-secondary">Live Demo</a>
+                                <a href = {project.demoLink} target = "_blank" rel = "noopener noreferrer" className = "button-primary">Live Demo</a>
                             </div>
                         </div>
                     </div>

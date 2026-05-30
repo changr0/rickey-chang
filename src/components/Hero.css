@@ -51,30 +51,18 @@
 }
 
 /* Button Styles */
-.button-primary, .button-secondary {
+.button-primary{
   padding: 12px 30px;
   border-radius: 4px;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s ease;
-}
-
-.button-primary {
-  background-color: #10b981;
-  color: #0f172a;
+  border: 1px solid #334155;
+  color: #f8fafc;
+  
 }
 
 .button-primary:hover {
-  background-color: #059669;
-  transform: translateY(-2px);
-}
-
-.button-secondary {
-  border: 1px solid #334155;
-  color: #f8fafc;
-}
-
-.button-secondary:hover {
   border-color: #10b981;
   color: #10b981;
   transform: translateY(-2px);
