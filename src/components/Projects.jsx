@@ -23,22 +23,20 @@ const Projects = () => {
 
     return (
         <section className = "projects-section" id = "projects">
-            <h2 className = "section-title"><b>PROJECTS</b></h2>
-            <div className = "projects-container">
+            <h2 className = "section-title">Projects</h2>
+            <div className = "projects-grid">
                 {projectData.map((project) => (
                     <div key = {project.id} className = "project-card">
-                        <div className = "card-content">
-                            <h3>{project.title}</h3>
-                            <p>{project.description}</p>
-                            <div className = "technologies">
-                                {project.technologies.map((item, index) => (
-                                    <span key = {index} className = "technology">{item}</span>
-                                ))}
-                            </div>
-                            <div className = "project-links">
-                                <a href = {project.githubLink} target = "_blank" rel = "noopener noreferrer" className = "button-primary">GitHub</a>
-                                <a href = {project.demoLink} target = "_blank" rel = "noopener noreferrer" className = "button-primary">Live Demo</a>
-                            </div>
+                        <h3>{project.title}</h3>
+                        <p>{project.description}</p>
+                        <div className = "technologies">
+                            {project.technologies.map((item, index) => (
+                                <span key = {index} className = "technology">{item}</span>
+                            ))}
+                        </div>
+                        <div className = "project-links">
+                            <a href = {project.githubLink} target = "_blank" rel = "noopener noreferrer" className = "button-primary">GitHub</a>
+                            <a href = {project.demoLink} target = "_blank" rel = "noopener noreferrer" className = "button-primary">Live Demo</a>
                         </div>
                     </div>
                 ))}

@@ -1,6 +1,6 @@
 .contact-section {
   background-color: #0f172a;
-  padding: 40px 20px 0 20px; /* 0 bottom padding because the footer handles the bottom */
+  padding: 40px 20px 0 20px;
   color: #f8fafc;
 }
 
@@ -25,7 +25,6 @@
   margin-bottom: 80px;
 }
 
-/* Base button styles to match your Hero actions */
 .contact-btn {
   padding: 14px 32px;
   border-radius: 4px;
@@ -35,7 +34,6 @@
   font-size: 1rem;
 }
 
-/* Filled Green Email Action Button */
 .email-btn {
   background-color: #10b981;
   color: #0f172a;
@@ -48,7 +46,6 @@
   transform: translateY(-2px);
 }
 
-/* Outlined LinkedIn Button */
 .linkedin-btn {
   border: 1px solid #334155;
   color: #f8fafc;
@@ -61,7 +58,6 @@
   transform: translateY(-2px);
 }
 
-/* Subtle Copyright Footer Row */
 .portfolio-footer {
   border-top: 1px solid #1e293b;
   padding: 30px 20px;

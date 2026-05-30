@@ -39,7 +39,7 @@
 
 .skill-list {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 12px;
   margin-top: 15px;
 }
@@ -52,12 +52,12 @@
   font-weight: 500;
   border: 1px solid #344256;
   transition: all 0.2s ease;
-  white-space: nowrap; /* Keeps single skills on one line */
+  white-space: nowrap;
 }
 
 .skill-item:hover {
   border-color: #10b981; 
   color: #10b981;        
-  background-color: #10b9810d; /* Soft glowing green background */
+  background-color: #10b9810d;
   transform: translateY(-1px);
 }

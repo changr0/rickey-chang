@@ -1,5 +1,5 @@
 .hero-container {
-  background-color: #0f172a; /* Dark Navy */
+  background-color: #0f172a;
   color: #f8fafc;
   min-height: 50vh;
   display: flex;
@@ -16,7 +16,7 @@
 .hero-badge {
   display: block;
   font-family: 'Courier New', Courier, monospace;
-  color: #10b981; /* Emerald Green */
+  color: #10b981;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 0.9rem;
@@ -24,7 +24,7 @@
 }
 
 .hero-title {
-  font-size: clamp(2.5rem, 8vw, 4.5rem); /* Responsive font sizing */
+  font-size: clamp(2.5rem, 8vw, 4.5rem);
   font-weight: 800;
   margin-bottom: 1.5rem;
   line-height: 1.1;
@@ -36,11 +36,11 @@
 
 .hero-description {
   font-size: 1.25rem;
-  color: #94a3b8; /* Slate Gray */
+  color: #94a3b8;
   line-height: 1.6;
   margin-bottom: 2.5rem;
   max-width: 600px;
-  margin-inline: auto; /* Centers the paragraph */
+  margin-inline: auto;
 }
 
 .hero-buttons {
@@ -50,7 +50,6 @@
   flex-wrap: wrap;
 }
 
-/* Button Styles */
 .button-primary{
   padding: 12px 30px;
   border-radius: 4px;
