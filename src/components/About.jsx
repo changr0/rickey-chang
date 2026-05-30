@@ -8,10 +8,10 @@ const About = () => {
                 <div className = "about-content">
                     <div className = "about-text">
                         <p>
-
+                            I am a passionate and dedicated aspiring developer with a strong foundation in web development technologies.
                         </p>
                         <p>
-                            
+                            I am eager to contribute my skills and knowledge to a dynamic team and grow as a professional in the field of web development.
                         </p>
                     </div>
                     <div className = "about-details">

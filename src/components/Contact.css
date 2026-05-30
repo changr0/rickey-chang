@@ -1,0 +1,76 @@
+.contact-section {
+  background-color: #0f172a;
+  padding: 40px 20px 0 20px; /* 0 bottom padding because the footer handles the bottom */
+  color: #f8fafc;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-message {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #94a3b8;
+  margin-bottom: 40px;
+}
+
+.contact-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+/* Base button styles to match your Hero actions */
+.contact-btn {
+  padding: 14px 32px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+/* Filled Green Email Action Button */
+.email-btn {
+  background-color: #10b981;
+  color: #0f172a;
+  border: 1px solid #10b981;
+}
+
+.email-btn:hover {
+  background-color: #059669;
+  border-color: #059669;
+  transform: translateY(-2px);
+}
+
+/* Outlined LinkedIn Button */
+.linkedin-btn {
+  border: 1px solid #334155;
+  color: #f8fafc;
+  background-color: transparent;
+}
+
+.linkedin-btn:hover {
+  border-color: #10b981;
+  color: #10b981;
+  transform: translateY(-2px);
+}
+
+/* Subtle Copyright Footer Row */
+.portfolio-footer {
+  border-top: 1px solid #1e293b;
+  padding: 30px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.portfolio-footer p {
+  font-size: 0.9rem;
+  color: #64748b;
+  font-family: 'Courier New', Courier, monospace;
+}
