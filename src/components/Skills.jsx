@@ -8,7 +8,7 @@ const Skills = () => {
                 {name: "HTML", url: "https://developer.mozilla.org/en-US/docs/Web/HTML"},
                 {name: "CSS", url: "https://developer.mozilla.org/en-US/docs/Web/CSS"},
                 {name: "JavaScript", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"},
-                {name: "React", url: "https://reactjs.dev/"}
+                {name: "React", url: "https://react.dev/"}
             ]
         },
         {
