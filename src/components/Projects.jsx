@@ -5,16 +5,16 @@ const Projects = () => {
         {
             id: 1,
             title: 'Project 1',
-            description: "This is project one.",
-            technologies: ["HTML", "CSS", "JavaScript"],
+            description: "In progress.",
+            technologies: [""],
             githubLink: 'https://github.com/changr0',
             demoLink: ''
         },
         {
             id: 2,
             title: 'Project 2',
-            description: "This is project two.",
-            technologies: ["HTML", "CSS", "JavaScript"],
+            description: "In progress.",
+            technologies: [""],
             githubLink: 'https://github.com/changr0',
             demoLink: ''
         },
