@@ -8,8 +8,8 @@ const Contact = () => {
 
                 <div className = "contact-content">
                     <p className = "contact-message">
-                        I am currently open to entry-level opportunities, professional collaborations, and freelance projects. If you have any questions, would like to discuss potential opportunities.
-                        Please feel free to reach out to me through the contact form below or connect with me on LinkedIn. I look forward to hearing from you!
+                        I am currently open to entry-level opportunities, professional collaborations, and freelance projects. If you have any questions or would like to discuss potential opportunities,
+                        please feel free to reach out to me through my email or LinkedIn.
                     </p>
 
                     <div className = "contact-info">

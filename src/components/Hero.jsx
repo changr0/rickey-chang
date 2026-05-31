@@ -11,11 +11,7 @@ const Hero = () => {
                 </h1>
 
                 <p className = "hero-description">
-                    I recently received my <b>Associate Degree</b> from <b>Milwaukee Area Technical College </b>
-                    and will be continuing my education at the <b>University of Wisconsin-Milwaukee</b> for a <b>Bachelor's Degree</b>.
-                    I am passionate about creating visually appealing and user-friendly websites. 
-                    I have experience with <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, and <b>React</b>. 
-                    I am always eager to learn new technologies and improve my skills as a developer.
+                    Recent IT graduate specializing in front-end development. I build clean and accessible web applications using React and JavaScript.
                 </p>
 
                 <div className = "hero-buttons">

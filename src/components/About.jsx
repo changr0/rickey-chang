@@ -8,10 +8,11 @@ const About = () => {
                 <div className = "about-content">
                     <div className = "about-text">
                         <p>
-                            I am a passionate and dedicated aspiring developer with a strong foundation in web development technologies.
+                            I recently received my Associate Degree from Milwaukee Area Technical College and will be continuing my education at the University of Wisconsin-Milwaukee for a Bachelor's Degree.
+                            I am passionate and dedicated about front-end development with a strong foundation in web development technologies.
                         </p>
                         <p>
-                            I am eager to contribute my skills and knowledge to a dynamic team and grow as a professional in the field of web development.
+                            With my skills in <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, and <b>React</b>, I am eager to contribute to a dynamic team and grow as a professional in the field of web development.
                         </p>
                     </div>
                     <div className = "about-details">
